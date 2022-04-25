@@ -79,7 +79,7 @@ class TestCredential(unittest.TestCase):
            '''
 
            self.new_credential.save_credential()
-           test_credential = Credential("Facebook","George","George420") # new credential
+           test_credential = Credential("Biggie","view","5555") # new credential
            test_credential.save_credential()
 
            credential_exists = Credential.credential_exist("Facebook")
@@ -87,6 +87,12 @@ class TestCredential(unittest.TestCase):
            self.assertTrue(credential_exists) 
 
 
+        def test_display_all_credentials(self):
+           '''
+           method that returns a list of all credentials saved
+           '''
+
+           self.assertEqual(Credential.display_credentials(),Credential.credential_list)    
 
 
 if __name__ == '__main__':
