@@ -82,7 +82,7 @@ class TestCredential(unittest.TestCase):
            test_credential = Credential("Biggie","view","5555") # new credential
            test_credential.save_credential()
 
-           credential_exists = Credential.credential_exist("Facebook")
+           credential_exists = Credential.credential_exist("Biggie")
 
            self.assertTrue(credential_exists) 
 
