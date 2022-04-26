@@ -1,4 +1,5 @@
 
+
 class Credential:
     """
     Class that generates new instances of credential.
@@ -68,7 +69,5 @@ class Credential:
         '''
         return cls.credential_list  
   
-
-
 
 
