@@ -64,11 +64,11 @@ def delete_credential(credential):
     '''
     credential.delete_credential()
     
-def find_credentials(account):
+def find_credentials(account_name):
     '''
     Function that finds a Credentials account name and returns the credential
     '''
-    return Credential.find_by_account(account)
+    return Credential.find_by_account(account_name)
 
 def display_credentials():
     '''
@@ -133,8 +133,8 @@ def main():
                 print("Enter the account name you want to search for")
 
                 search_account_name = input()
-                if check_existing_credential(search_account_name):
-                        search_credential = find_credential(search_account_name)
+                if find_credentials(search_account_name):
+                        search_credential = find_credentials(search_account_name)
                         print(f"{search_credential.account_name} ")
                         print('-' * 20)
 
