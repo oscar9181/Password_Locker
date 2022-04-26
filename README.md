@@ -1,4 +1,4 @@
-#Password-Locker
+Password-Locker
 #Author
 Oscar Okola
 
