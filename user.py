@@ -1,3 +1,4 @@
+import pyperclip
 class User:
     '''
     Class that generates new instances of users
@@ -79,3 +80,8 @@ class User:
         return cls.user_list  
              
    
+    @classmethod
+    def copy_user_name(cls,user_name):
+        user_found = User.find_by_username(user_name)
+        pyperclip.copy(user_found.user_name)
+    
