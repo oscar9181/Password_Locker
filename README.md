@@ -1,11 +1,12 @@
-Password-Locker
-#Author
+# Password-Locker
+
+# Author
 Oscar Okola
 
-#Description
+# Description
 This is password locker application built using Python Programming Language that enables users to create, store and manage their passwords. 
 
-#Behaviour Driven Development
+# Behaviour Driven Development
 
     User can create account
     User can search for account
@@ -14,16 +15,16 @@ This is password locker application built using Python Programming Language that
     It has an option to either exit the application or continue using it
 
 
-#Technologies Used
+# Technologies Used
   Python3.9
 
-#Installation set up
+# Installation set up
 The application need the following installation to work
     pyperclip
     pip
 
 
-#Running the Application
+# Running the Application
 
     To run the application, open the cloned file in the terminal and run the following commands:
 
@@ -33,12 +34,12 @@ The application need the following installation to work
     To run test for the application in the vs code
 
      $ python 3.9 run.py
-#Future Goals
+# Future Goals
 Deleting credential
 
-#Contact information
+# Contact information
 If you have any contribution you can reach out okolaoscar17@gmail.com
 
-#License
+# License
 MIT license
 
